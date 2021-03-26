@@ -4,7 +4,7 @@ let counter = 0
 document.getElementById('multiply').addEventListener('click', calculate)
 // The function resets answer to zero if a multiplication has already been made on the web page. It also assigns the values of the textboxes to the variables firstNum and secondNum.
 function calculate () {
-  answer = 0
+  let answer = 0
   firstNum = document.getElementById('first').value
   secondNum = document.getElementById('second').value
   firstNum = parseInt(firstNum)
